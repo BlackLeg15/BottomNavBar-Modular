@@ -21,9 +21,11 @@ class _Page2PageState extends ModularState<Page2Page, Page2Controller> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Text(
-            "Olá, Mundo, novamente",
-            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+          Center(
+            child: Text(
+              "github.com/BlackLeg15",
+              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+            ),
           ),
         ],
       ),

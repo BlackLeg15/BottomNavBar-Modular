@@ -21,9 +21,11 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Text(
-            "Olá, Mundo",
-            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+          Center(
+            child: Text(
+              "Olá, Mundo",
+              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+            ),
           ),
         ],
       ),

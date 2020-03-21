@@ -7,8 +7,8 @@ class BNBItems {
       title: Text("Home"),
     ),
     BottomNavigationBarItem(
-      icon: Icon(Icons.calendar_today),
-      title: Text("Calendar"),
+      icon: Icon(Icons.person),
+      title: Text("GitHub"),
     ),
   ];
 }
